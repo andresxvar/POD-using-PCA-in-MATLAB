@@ -13,13 +13,13 @@ clear; clc; close all;
 
 ## Using PCA
 
-The PCA method accepts data, X as n-by-p matrix of n observations and p variables. 
+The PCA method accepts data, X as an n-by-p matrix of n observations and p variables. 
 
-The snapshots above have are 3-dimensional with the first dimension as time the first dimension.
+The snapshots above are 3-dimensional with the first dimension as time the first dimension.
 
 Reshape the data so that there are n observations in time, and each pixel is a variable
 
-By default PCA centeres the data
+By default, PCA centers the data
 
 PCA returns the coefficients (space), scores (evolution), explained variance (energy)
 
@@ -53,7 +53,7 @@ legend('show')
 
 ![figure_1.png](PODusingPCA_images/figure_1.png)
 
-## Principal component coeffients (analogous to POD modes)
+## Principal component coefficients (analogous to POD modes)
 
 ```matlab:Code
 figure;
